@@ -1,7 +1,7 @@
 # Link to this course:  [I highly recommend it ]
 https://www.udemy.com/the-complete-guide-to-angular-2/
 
-[!Cover image](https://github.com/BiggaHD/Recipe_Book/blob/master/angular-large.jpg)
+![Cover image](https://github.com/BiggaHD/Recipe_Book/blob/master/angular-large.jpg)
 
 # N5CompleteGuide
 

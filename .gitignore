@@ -14,11 +14,10 @@
 # dependencies
 
 
-/node_modules
-
-
+/node_modules/
 /ng4-master/
 Task IV/
+/Po lekciji/
 
 # IDEs and editors
 

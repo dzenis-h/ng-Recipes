@@ -1,5 +1,8 @@
-# Link to this course:  [I highly recommend it ]
+# Link to this course:  [I highly recommend it]
 https://www.udemy.com/the-complete-guide-to-angular-2/
+
+# Additional info:
+Ignore the ng-Lectures folder. It's not part of the app, but a part of my learning process. Makes sense? Cheers. ;)
 
 ![Cover image](https://github.com/BiggaHD/Recipe_Book/blob/master/angular-large.jpg)
 

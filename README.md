@@ -1,6 +1,8 @@
 # Link to this course:  [I highly recommend it ]
 https://www.udemy.com/the-complete-guide-to-angular-2/
 
+![Cover image](https://github.com/BiggaHD/Recipe_Book/blob/master/angular-large.jpg)
+
 # N5CompleteGuide
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.

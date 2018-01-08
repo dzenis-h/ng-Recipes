@@ -12,4 +12,3 @@ describe('n5-complete-guide App', () => {
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
-

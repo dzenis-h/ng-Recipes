@@ -1,6 +1,6 @@
 {
-  "name": "n5-complete-guide",
-  "version": "0.0.0",
+  "name": "Balkan-Recipe-Book",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

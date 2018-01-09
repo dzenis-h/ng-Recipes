@@ -1,3 +1,6 @@
+# This is the final result:
+(!Cover image)(https://github.com/BiggaHD/Balkan_Recipe_Book/blob/master/Final%20product!.jpg)
+
 # N5CompleteGuide
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.

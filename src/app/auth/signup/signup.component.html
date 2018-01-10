@@ -3,16 +3,30 @@
     <form (ngSubmit)="onSignup(f)" #f="ngForm">
       <div class="form-group">
         <label for="email">Mail</label>
-        <input type="email" id="email" name="email" ngModel class="form-control">
+        <input
+              type="email"
+              id="email"
+              class="form-control"
+              ngModel
+              name="email"
+              required
+              email
+              #email="ngModel">
+      <p class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid email!</p>
       </div>
       <div class="form-group">
         <label for="password">Password</label>
-        <input
+        <input pattern=".{6,}" 
+          title="6 characters minimum"
           type="password"
           id="password"
-          name="password"
+          class="form-control"
           ngModel
-          class="form-control">
+          name="password"
+          required
+          password
+          #password="ngModel">
+      <p class="help-block" *ngIf="!password.valid && password.touched">Please enter a valid password!</p>
       </div>
       <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Sign Up</button>
     </form>

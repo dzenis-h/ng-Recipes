@@ -4,7 +4,10 @@
 >The app is inspired by a Udemy course which I highly recommend. You can find the link below:
 https://www.udemy.com/the-complete-guide-to-angular-2/
 
-# N5CompleteGuide
+## You can find this app deployed to Heroku:
+> https://balkan-recipes2.herokuapp.com/
+
+> # Basic ng-5 instructions:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 

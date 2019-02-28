@@ -14,13 +14,13 @@ export class DataStorageService {
   }
 
   storeRecipes() {
-    const token = this.authService.getToken();
+    const token = this.authService.getIdToken();
 
     return this.http.put('https://ng-recipes-2019.firebaseio.com/recipes.json?auth=' + token, this.recipeService.getRecipes());
   }
 
   getRecipes() {
-    const token = this.authService.getToken();
+    const token = this.authService.getIdToken();
 
     this.http.get('https://ng-recipes-2019.firebaseio.com/recipes.json?auth=' + token)
       .map(

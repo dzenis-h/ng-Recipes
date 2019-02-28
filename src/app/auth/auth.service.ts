@@ -35,7 +35,7 @@ export class AuthService {
     this.token = null;
   }
 
-  getToken() {
+  getIdToken() {
     firebase.auth().currentUser.getIdToken()
       .then(
         (token: string) => this.token = token

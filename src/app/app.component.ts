@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as firebase from 'firebase';
+import { environment } from '../../environments/environment.prod';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     firebase.initializeApp({
-      apiKey: "AIzaSyDCBzPHUhXjj8Erbx9vUJP630inAmrESeg",
-      authDomain: "ng-recipes-2019.firebaseapp.com"
+      apiKey: environment.apiKey, 
+      authDomain: environment.authDomain
     });
   }
 

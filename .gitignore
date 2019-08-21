@@ -4,6 +4,8 @@
 /dist
 /tmp
 
+/environment.prod.ts
+
 # dependencies
 /node_modules
 

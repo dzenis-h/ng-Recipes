@@ -1,5 +1,5 @@
 {
-  "name": "ng-recipe",
+  "name": "ng-recipes",
   "version": "1.2.3",
   "author": "BiggaHD",
   "license": "MIT",
@@ -12,10 +12,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "heroku-postbuild": "ng build --prod"
- },
+  },
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.5.0",
+    "@angular/cli": "^1.6.0",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -50,7 +50,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
-    "tslint": "~5.7.0"   
+    "tslint": "~5.7.0"
   },
   "engines": {
     "node": "8.4.0",

@@ -5,6 +5,9 @@
 /tmp
 
 /environment.prod.ts
+.firebase
+.firebaserc
+firebase.json
 
 # dependencies
 /node_modules

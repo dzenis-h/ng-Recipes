@@ -1,7 +1,7 @@
 {
-  "name": "ng-recipes",
-  "version": "1.2.3",
-  "author": "BiggaHD",
+  "name": "balkan-recipes",
+  "version": "1.2.4",
+  "author": "Dzenis H.",
   "license": "MIT",
   "scripts": {
     "start": "node server.js",

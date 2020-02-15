@@ -1,18 +1,39 @@
 /*  Overwritting some Bootstrap styles */
-
-.btn {
-    margin-bottom: 6px;
+.theme {
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { 
-    background-color: #337ab7;
-    color: black;
+.theme::after {
+  content: "";
+  background-image: url("./assets/img/theme.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.33;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.img-responsive-1 {
+  box-shadow: 2px 4px 5px 2px !important;
+}
+
+.btn {
+  margin-bottom: 6px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #337ab7;
+  color: black;
 }
 
 .list-group-item:last-child {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
-.navbar-brand>img {
-    display: inline-flex;
+.navbar-brand > img {
+  display: inline-flex;
 }

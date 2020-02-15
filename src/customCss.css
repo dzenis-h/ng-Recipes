@@ -9,23 +9,15 @@ body {
   height: 100%;
 }
 
-/* html {
-  background: url("./assets/img/theme.png") no-repeat center center fixed;
-  background-size: cover;
-} */
+html {
+  /* background: url("./assets/img/theme.png") no-repeat center center fixed; */
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("./assets/img/theme.png") no-repeat center center fixed;
 
-div#xo > img {
-  background: url("./assets/img/theme.png") no-repeat center center fixed;
-  background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.3;
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
 
 body {
